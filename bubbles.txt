@@ -1,0 +1,17 @@
+<g class="bubbles">
+        <g class="astronaut">
+          <g class="jetBubbles">
+      <g id="greyJets" fill="#9d9d9c" opacity="0.6">
+        <circle class="jetBubble" cx="468.64" cy="274.59" r="9.73" fill="#9d9d9c"/>
+        <circle class="jetBubble" cx="478.7" cy="275.41" r="9.73" fill="#9d9d9c"/>
+        <circle class="jetBubble" cx="485.13" cy="269.81" r="9.73" fill="#9d9d9c"/>
+      </g>
+	  <g id="colorJets" stroke-width="0" stroke="#3d3d3d" fill="#fff">
+      <circle class="jetBubble" cx="459" cy="272.22" r="9" fill="#fff"/>
+      <circle class="jetBubble" cx="463.5" cy="278.04" r="4.5" fill="#fff"/>
+      <circle class="jetBubble" cx="459.05" cy="262.54" r="4.5" fill="#fff"/>
+      <circle class="jetBubble" cx="470.09" cy="267.17" r="11.09" fill="#fff"/>
+      <circle class="jetBubble" cx="476.58" cy="268.88" r="10.16" fill="#fff"/>
+      <circle class="jetBubble" cx="480.97" cy="264.53" r="8.94" fill="#fff"/>
+	  </g>
+	  </g></g></g>
