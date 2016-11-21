@@ -144,14 +144,14 @@ Animations
 ========================================================================== */
 @-webkit-keyframes swim {
   0% {
-    margin-left: -235px; }
+    margin-left: -35px; }
   90% {
     margin-left: 100%; }
   100% {
     margin-left: 100%; } }
 @keyframes swim {
   0% {
-    margin-left: -235px; }
+    margin-left: -35px; }
   100% {
     margin-left: 100%; } }
 svg.fish1 {
@@ -552,17 +552,25 @@ svg .fish2 {
 /* Larger than tablet */
 /* Larger than desktop */
 @media (min-width: 1000px) {
-  #mobile-svg {
-    display: none; }
+  #mobile-svg {display: none; }
 
-  #parallax {
-    display: block; } }
+  #parallax {display: block; } 
+  svg.fish1 { top:5%;}
+  svg.fish1 { bottom:80%;}
+}
+@media (max-width: 999px) {
+  svg.fish1 { top:5%;}
+  svg.fish2 { bottom:80%;}
+  #blue {display:none;}
+}
+
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
   .waves {
     bottom: -260px; }
 
   .mountains-pink svg, .mountains-purple svg {
-    bottom: 5%; } }
+    bottom: 5%; } 
+	}
 
 /*# sourceMappingURL=styles.css.map */
